@@ -1,0 +1,82 @@
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Spartan:wght@500;700&display=swap');
+.glavno{
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Spartan', sans-serif;
+  
+  
+}
+:root {
+  --colorbody: #f2f2f2;
+  --headlinetext: #0c0e16;
+  --paragraphtext: #858BB2;
+  --nocolorbtn: #f2f2f2;
+  --violetcolorbtn: #7c5dfa;
+  --whitetext: #ffffff;
+  --boxshadow: #48549F1A;
+  --invoicetext: #7e88c3;
+  --statusgreen: #33D69F;
+  --statusorange: #ff8f00;
+  --redcolorbtn: #EC5757;
+  --paymentbackground: #F9FAFE;
+  --darkpart: #373B53;
+  --modalcolor: rgba(0, 0, 0, 0.5);
+  --hardblacknumber:#0C0E16;
+  --paidcolor:#f2f2f2;
+  --invoicetextdata:#888EB0;
+  --plusheader: #ffffff;
+  --inputcolor: #FFFFFF;
+  --newmodal:#FFFFFF;
+  --butdowncolor:#ffffff;
+  --fillter:#ffffff;
+  --shadowvar:0px 10px 20px rgba(72, 84, 159, 0.25);
+  --filtercolor:#1E2139;
+  --inputcheck:#DFE3FA;
+  --colorclienth4:#0C0E16;
+  --boldtext:#0c0e16;
+  --whitetextclient:#ffffff;
+  --containercolor: #ffffff;
+  --containerborder: #DFE3FA;
+  --newmodalinput: #ffffff;
+  --newcolorbutton:#f2f2f2;
+  --textcolordelete:#000000;
+}
+.dark-version {
+  --whitetext:#1E2139;
+  --hardblacknumber:#FFFFFF;
+  --paidcolor:#979797;
+  --nocolorbtn:#231F20;
+  --headlinetext:#FFFFFF;
+  --invoicetextdata:#DFE3FA;
+  --colorbody: #1E2139;
+  --plusheader: #ffffff;
+  --invoicetext: #ffffff;
+  --paragraphtext:#DFE3FA;
+  --newmodal:#141625;
+  --inputcolor: ##1e2239;
+  --butdowncolor:#1e2139;
+  --fillter:#1E2139;
+  --shadowvar:0px 10px 20px rgba(0, 0, 0, 0.25);
+  --filtercolor:#ffffff;
+  --inputcheck:#232749;
+  --paymentbackground: #252945;
+  --colorclienth4:#DFE3FA;
+  --boldtext:#FFFFFF;
+  --darkpart: #0C0E16;
+  --containercolor: #252945;
+  --containerborder: #1E2139;
+  --newmodalinput: #252945;
+  --newcolorbutton:#252945;
+  --textcolordelete:#FFFFFF;
+
+}
+
+ */

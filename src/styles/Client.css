@@ -1,0 +1,347 @@
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: var(--colorbody);
+  padding-bottom: 130px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 65px;
+}
+
+.invoice-page {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 125px;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+}
+  /* -- header -- */
+  
+  .client-header {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 700px
+  }
+  .client-section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--whitetext);
+    border-radius: 8px;
+    padding: 48px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .go-back {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    border: none;
+    background-color: var(--colorbody);
+    margin-bottom: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #888EB0;
+  }
+  
+  .btn-up-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--whitetext);
+    padding: 20px;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px -10px var(--boxshadow);
+  }
+  
+  .up-bar-left {
+    display: flex;
+  }
+  
+  .invoice-status-2 {
+    background-color: var(--whitetext);
+    width: 105px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    color: var(--statusorange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+    border-radius: 6px;
+  }
+  
+  .up-bar-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .no-color-btn-4 {
+    background-color: var(--nocolorbtn);
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+    color: var(--invoicetext);
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    padding: 16px 23px;
+  }
+  .no-color-btn-4:hover {
+    background-color: #d1d6f3;
+  }
+
+  .delete-btn {
+    background-color: var(--redcolorbtn);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 89px;
+    height: 48px;
+    cursor: pointer;
+  }
+  .delete-btn:hover {
+    background-color: #FF9797;
+  }
+  
+  .violet-btn-3 {
+    background-color: var(--violetcolorbtn);
+    width: 130px;
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+  .violet-btn-3:hover {
+    background-color: #9277FF;
+  }
+  
+  /* -- section -- */
+  
+  
+  .invoice-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+  }
+  
+  .inv-data-left {
+  text-align: start;
+  }
+  
+  .inv-data-right {
+    text-align: end;
+    color: var(--headlinetext);
+  }
+
+
+  
+  .sending-data {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+    margin-bottom: 35px;
+  }
+  
+  .date-payment-due {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .payment-data {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--paymentbackground);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding-left: 32px;
+  }
+  
+  .item-list-names {
+    display: flex;
+  }
+  
+  .dark-part {
+  display: flex;
+  padding-left: 32px;
+  padding-right: 32px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--darkpart);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  }
+  
+  .color-white {
+    color: var(--whitetextclient);
+  }
+  h4 {
+    color: var(--colorclienth4);
+    padding: 0;
+  }
+  .bold-text{
+    color: var(--boldtext);
+  }
+
+
+  .item-list-headlines {
+    display: flex;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    
+  }
+
+  .flex-part {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--paymentbackground);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+  .invoice-email{
+    margin: 0;
+  }
+  .sent-to-mobile {
+    display: none;
+  }
+  .invisible-x{
+    display: none;
+  }
+
+  @media only screen and (max-width: 760px) {
+    .client-header{
+      width: 400px;
+
+    }
+    .client-section {
+      width: 300px;
+    }
+    .up-bar-right{
+      justify-content: space-around;
+      background-color: var(--whitetext);
+      width: 100%;
+      padding: 21px;
+      bottom: -289px;
+      position: absolute;
+    }
+    .btn-up-bar{
+      justify-content: center;
+    }
+    .invoice-data{
+      display: flex;
+      flex-direction: column;
+    }
+    .inv-data-right {
+      text-align: start;
+    }
+    .sent-to {
+      display: none;
+    }
+    .sending-data {
+      padding-right: 0;
+      margin-bottom: 0;
+    }
+    .sent-to-mobile {
+      display: block;
+      margin-bottom: 20px;
+
+    }
+    .item-list-headlines{
+      display: none;
+    }
+    .item-name {
+      width: 100%;
+    }
+    .quantity{
+      width: 2%;
+    }
+    .price {
+      width: 35%;
+    }
+    .item-list-names {
+      justify-content: space-between;
+    }
+    .total {
+      width: 40%;
+      align-self: flex-end;
+      
+    }
+    .no-border {
+      margin: 0;
+      display: flex;
+    }
+    .item-name {
+      margin: 0;
+    }
+    .invisible-x {
+      display: block;
+      color: var(--paragraphtext);
+      margin-bottom: 4px;
+    }
+    .payment-data {
+      padding-top: 15px;
+    }
+  }
+  @media only screen and (max-width: 420px){
+    .client-header{
+      width: 310px;
+
+    }
+    .client-section {
+      width: 210px;
+    }
+    .dark-part > h2 {
+      font-size: 15px;
+    }
+    .dark-part{
+      justify-content: center;
+      padding-left: 0;
+      padding-right: 0;
+      gap: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .payment-data {
+      padding-left: 7px;
+      
+    }
+  }

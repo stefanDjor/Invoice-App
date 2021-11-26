@@ -1,0 +1,247 @@
+.new {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .left-side {
+    width: 50%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 155px;
+    padding-top: 55px;
+    padding-right: 55px;
+    padding-bottom: 0px;
+    background-color: var(--newmodal);
+  }
+
+  .bill-form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .violet-text {
+    color: #7C5DFA;
+    margin-top: 48px;
+    font-weight: 700;
+  }
+
+  .light-border {
+    border: 1px solid #dfe3fa;
+    padding-left: 15px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    cursor: pointer;
+    background-color:var(--newmodalinput);
+    border-radius: 6px;
+  }
+  .light-border:hover {
+    border: 1px solid #7C5DFA;
+  }
+
+  .bold-text {
+    color: #0c0e16;
+    font-weight: 700;
+  }
+
+  .adress {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .city {
+    display: flex;
+    flex-direction: column;
+    width: 152px;
+  }
+  
+  .postcode {
+    display: flex;
+    flex-direction: column;
+    width: 152px;
+  }
+  
+  .country {
+    display: flex;
+    flex-direction: column;
+    width: 152px;
+  }
+  
+  .invoice-date {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .date {
+    width: 240px;
+  }
+  
+  .calendar {
+    justify-self: flex-end;
+  }
+  
+  .arrow-down {
+    justify-self: flex-end;
+  }
+  
+  .gray {
+    font-size: 18px;
+    color: #777f98;
+    margin-top: 30px;
+  }
+  
+  .item-list-names {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item-name {
+    width: 215px;
+  }
+  
+  .quantity {
+    width: 45px;
+  }
+  
+  .price {
+    width: 100px;
+  }
+
+  .total {
+    width: 180px;
+  }
+  
+  .no-border {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  
+  .trash {
+    width: 13px;
+    height: 16px;
+    cursor: pointer;
+  }
+  
+  .no-color-btn-2 {
+    background-color: var(--newcolorbutton);
+    width: 100%;
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+    color: #7e88c3;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 200px;
+  }
+  
+  .buttons-down {
+    width: 50%;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-left: 155px;
+    padding-right: 55px;
+    position: fixed;
+    left: 0; 
+    bottom: 0;
+    background-color: var(--butdowncolor);
+  }
+  
+  .no-color-btn-3 {
+    background-color: var(--newcolorbutton);
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+    color: #7e88c3;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 39px;
+    padding: 16px 23px;
+  }
+  
+  .buttons-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  
+  .draft-btn {
+    background-color: #373B53;
+    color: #888eb0;
+    width: 150px;
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .violet-btn-2 {
+    background-color: #7c5dfa;
+    width: 150px;
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  input {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-family: "Spartan";
+    font-weight: 700;
+    color: var(--inputcolor);
+    background-color: var(--inputcolor);
+    color: var(--headlinetext);
+  }
+  input::placeholder {
+    color: var(--headlinetext);
+    background-color: var(--inputcolor);
+  }
